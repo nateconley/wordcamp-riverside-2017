@@ -24,9 +24,9 @@ body.page:not(.twentyseventeen-front-page) .entry-header .entry-title {
   background: #1da1f2; }
 
 form input[type="submit"] {
-  background: #0026f1; }
+  background: #00adef; }
   form input[type="submit"]:active, form input[type="submit"]:hover {
-    background: #00adef; }
+    background: #005d81; }
 
 .page.page-one-column.page-slug-home .entry-header {
   display: none; }
