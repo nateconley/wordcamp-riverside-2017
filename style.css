@@ -6,7 +6,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.site-title {
   font-family: "Roboto Slab", serif; }
 
 p {
@@ -21,3 +22,11 @@ body.page:not(.twentyseventeen-front-page) .entry-header .entry-title {
 
 .site-footer li:last-child a {
   background: #1da1f2; }
+
+form input[type="submit"] {
+  background: #0026f1; }
+  form input[type="submit"]:active, form input[type="submit"]:hover {
+    background: #00adef; }
+
+.page.page-one-column.page-slug-home .entry-header {
+  display: none; }

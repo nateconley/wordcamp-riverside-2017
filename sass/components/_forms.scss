@@ -1,0 +1,11 @@
+form {
+
+	input[type="submit"] {
+		background: $color_dark-blue;
+
+		&:active,
+		&:hover {
+			background: $color_light-blue;
+		}
+	}
+}
