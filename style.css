@@ -9,6 +9,15 @@ h5,
 h6 {
   font-family: "Roboto Slab", serif; }
 
+p {
+  line-height: 1.8; }
+
 body.page:not(.twentyseventeen-front-page) .entry-header .entry-title {
   font-size: 1.8rem;
   text-align: center; }
+
+.site-footer li:first-child a {
+  background: #3b5998; }
+
+.site-footer li:last-child a {
+  background: #1da1f2; }
