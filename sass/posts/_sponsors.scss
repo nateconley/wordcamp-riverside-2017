@@ -1,0 +1,32 @@
+.page-slug-sponsors {
+
+	.wcorg-sponsor-level-platinum,
+	.wcorg-sponsor-level-gold,
+	.wcorg-sponsor-level-silver,
+	.wcorg-sponsor-level-bronze,
+	.wcorg-sponsor-level-micro {
+		border-bottom: 0.2rem solid $color_black;
+		margin-bottom: 3rem;
+		padding-bottom: 2rem;
+
+		h2 {
+			font-size: 3rem;
+			text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.1);
+		}
+
+		h3 {
+			font-size: 2rem;
+		}
+
+		.wcorg-sponsor-description {
+
+			img {
+				max-width: 300px;
+			}
+		}
+	}
+
+	.wcorg-sponsor-level-platinum, {
+		margin-top: 4rem;
+	}
+}

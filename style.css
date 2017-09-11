@@ -30,3 +30,34 @@ form input[type="submit"] {
 
 .page.page-one-column.page-slug-home .entry-header {
   display: none; }
+
+.page-slug-sponsors .wcorg-sponsor-level-platinum,
+.page-slug-sponsors .wcorg-sponsor-level-gold,
+.page-slug-sponsors .wcorg-sponsor-level-silver,
+.page-slug-sponsors .wcorg-sponsor-level-bronze,
+.page-slug-sponsors .wcorg-sponsor-level-micro {
+  border-bottom: 0.2rem solid #000;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem; }
+  .page-slug-sponsors .wcorg-sponsor-level-platinum h2,
+  .page-slug-sponsors .wcorg-sponsor-level-gold h2,
+  .page-slug-sponsors .wcorg-sponsor-level-silver h2,
+  .page-slug-sponsors .wcorg-sponsor-level-bronze h2,
+  .page-slug-sponsors .wcorg-sponsor-level-micro h2 {
+    font-size: 3rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.1); }
+  .page-slug-sponsors .wcorg-sponsor-level-platinum h3,
+  .page-slug-sponsors .wcorg-sponsor-level-gold h3,
+  .page-slug-sponsors .wcorg-sponsor-level-silver h3,
+  .page-slug-sponsors .wcorg-sponsor-level-bronze h3,
+  .page-slug-sponsors .wcorg-sponsor-level-micro h3 {
+    font-size: 2rem; }
+  .page-slug-sponsors .wcorg-sponsor-level-platinum .wcorg-sponsor-description img,
+  .page-slug-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor-description img,
+  .page-slug-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor-description img,
+  .page-slug-sponsors .wcorg-sponsor-level-bronze .wcorg-sponsor-description img,
+  .page-slug-sponsors .wcorg-sponsor-level-micro .wcorg-sponsor-description img {
+    max-width: 300px; }
+
+.page-slug-sponsors .wcorg-sponsor-level-platinum {
+  margin-top: 4rem; }
