@@ -1,4 +1,16 @@
 .site-header {
+	min-height: 600px;
+
+	.custom-header {
+		min-height: 600px;
+	}
+
+	.site-branding {
+		bottom: 0;
+		left: 0;
+		padding-top: 0;
+		position: absolute;
+	}
 
 	.site-branding-text {
 		text-align: center;
@@ -21,4 +33,13 @@
 
 body:not(.title-tagline-hidden) .site-header .site-branding-text {
 	display: block;
+}
+
+.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+	height: 66% !important;
+	object-fit: fill !important;
+	width: 100%;
+	max-height: 100% !important;
+	display: block !important;
+	position: relative !important;
 }
