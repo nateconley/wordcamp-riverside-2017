@@ -1,0 +1,32 @@
+.page-id-13 {
+
+	#tix {
+
+		.tix-right {
+
+			> input,
+			> textarea {
+				margin-bottom: 0.5rem;
+				margin-top: 0.5rem;
+			}
+		}
+
+		.tix-left {
+			vertical-align: middle;
+		}
+
+		.tix-row-question-453 {
+
+			.tix-right {
+
+				label:first-child {
+					margin-top: 0.5rem;
+				}
+
+				br:last-child {
+					display: none;
+				}
+			}
+		}
+	}
+}
