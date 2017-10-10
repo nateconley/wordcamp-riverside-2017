@@ -1,6 +1,15 @@
 .page-id-13 {
 
+	&.page.page-one-column .entry-header {
+		margin-bottom: 0;
+	}
+
 	#tix {
+
+		#tix-coupon-input {
+			margin-bottom: 0.5rem;
+			margin-top: 0.5rem;
+		}
 
 		.tix-right {
 
@@ -8,6 +17,11 @@
 			> textarea {
 				margin-bottom: 0.5rem;
 				margin-top: 0.5rem;
+				width: 100%;
+			}
+
+			> textarea {
+				min-height: 12rem;
 			}
 		}
 
@@ -26,6 +40,14 @@
 				br:last-child {
 					display: none;
 				}
+			}
+		}
+
+		.tix-submit {
+
+			select {
+				margin-right: 1rem;
+				min-width: 8rem;
 			}
 		}
 	}

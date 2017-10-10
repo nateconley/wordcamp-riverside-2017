@@ -78,10 +78,21 @@ form input[type="submit"] {
 .page-slug-sponsors .wcorg-sponsor-level-platinum {
   margin-top: 4rem; }
 
+.page-id-13.page.page-one-column .entry-header {
+  margin-bottom: 0; }
+
+.page-id-13 #tix #tix-coupon-input {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem; }
+
 .page-id-13 #tix .tix-right > input,
 .page-id-13 #tix .tix-right > textarea {
   margin-bottom: 0.5rem;
-  margin-top: 0.5rem; }
+  margin-top: 0.5rem;
+  width: 100%; }
+
+.page-id-13 #tix .tix-right > textarea {
+  min-height: 12rem; }
 
 .page-id-13 #tix .tix-left {
   vertical-align: middle; }
@@ -91,3 +102,7 @@ form input[type="submit"] {
 
 .page-id-13 #tix .tix-row-question-453 .tix-right br:last-child {
   display: none; }
+
+.page-id-13 #tix .tix-submit select {
+  margin-right: 1rem;
+  min-width: 8rem; }
