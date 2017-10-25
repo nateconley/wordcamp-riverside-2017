@@ -106,3 +106,14 @@ form input[type="submit"] {
 .page-id-13 #tix .tix-submit select {
   margin-right: 1rem;
   min-width: 8rem; }
+
+.page-id-7 .wcpt-session-speakers {
+  display: block;
+  font-weight: 700; }
+
+.page-id-7 .wcpt-session-title,
+.page-id-7 .wcpt-session-title:hover {
+  border-bottom: 1px dashed #000;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none !important; }
