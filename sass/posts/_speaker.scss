@@ -1,0 +1,23 @@
+.single-wcb_speaker {
+
+	.speaker-avatar {
+		margin-bottom: 1rem;
+
+		img {
+			width: 120px;
+		}
+	}
+}
+
+.page-id-8 {
+
+	.wcorg-speaker {
+		border-bottom: 1px dashed #000;
+		margin-bottom: 2rem;
+		padding-bottom: 2rem;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+}
