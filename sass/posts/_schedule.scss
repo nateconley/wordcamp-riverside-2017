@@ -15,4 +15,23 @@
 	.lunch {
 		background: #D3E4EB;
 	}
+
+	.button-dl {
+		background: $color_blue-2;
+		border-bottom: none !important;
+		box-shadow: none !important;
+		color: $color_white;
+		display: block;
+		padding: 0.5rem 1.5rem;
+		text-align: center;
+		text-decoration: none;
+		transition: background 400ms ease-in-out;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background: $color_light-blue;
+			color: $color_white;
+		}
+	}
 }
