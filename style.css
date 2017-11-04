@@ -47,6 +47,38 @@ form input[type="submit"] {
 .page.page-one-column.page-slug-home .entry-header {
   display: none; }
 
+.page.page-one-column.page-slug-home .wifi-credentials {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Roboto Slab';
+  height: 40px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  vertical-align: middle;
+  z-index: 99999; }
+
+@media screen and (min-width: 48em) {
+  .page.page-one-column.page-slug-home .site-navigation-fixed.navigation-top {
+    top: 40px; } }
+
+.page.page-one-column.page-slug-home.admin-bar .wifi-credentials {
+  top: 30px; }
+
+@media screen and (min-width: 48em) {
+  .page.page-one-column.page-slug-home.admin-bar .site-navigation-fixed.navigation-top {
+    top: 68px; } }
+
 .page-slug-sponsors .wcorg-sponsor-level-platinum,
 .page-slug-sponsors .wcorg-sponsor-level-gold,
 .page-slug-sponsors .wcorg-sponsor-level-silver,

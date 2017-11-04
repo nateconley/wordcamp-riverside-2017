@@ -3,4 +3,41 @@
 	.entry-header {
 		display: none;
 	}
+
+	.wifi-credentials {
+		align-items: center;
+		background: gold;
+		display: flex;
+		justify-content: center;
+		font-family: 'Roboto Slab';
+		height: 40px;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		vertical-align: middle;
+		z-index: 99999;
+	}
+
+	@media screen and (min-width: 48em) {
+
+		.site-navigation-fixed.navigation-top {
+			top: 40px;
+		}
+	}
+
+	&.admin-bar {
+
+		.wifi-credentials {
+			top: 30px;
+		}
+
+		@media screen and (min-width: 48em) {
+
+			.site-navigation-fixed.navigation-top {
+				top: 68px;
+			}
+		}
+	}
 }
